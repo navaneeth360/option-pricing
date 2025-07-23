@@ -44,9 +44,13 @@ A **probabilistic model** that simulates many potential paths of the stock price
 ---
 
 ## Interface Preview 
+ Clone the repo and run **gui.py** to get the following interface. <br> <br>
+![App Screenshot](Interface_pics/Main_interface_empty.jpg)
 
-> *(You can include a screenshot of your Tkinter GUI here using:)*  
-> `![App Screenshot](path/to/screenshot.png)`
+In the interface, enter the required fields. Autocomplete is available from the dropdown menu for the ticker. The time to expiry closest to the entered value present in the option chain will be used. <br>
+The volatility is calculated based on the historic price of the stock over the past 1 month. <br>
+Below, we see the actual option prices along with the prices found by the 3 models for both puts and calls for varying strike prices. <br> <br>
+![App Screenshot](Interface_pics/Main_interface_run.jpg)
 
 ---
 
